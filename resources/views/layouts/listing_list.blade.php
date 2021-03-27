@@ -51,7 +51,7 @@
 		<div class="preloader_area">
 			<div class="spinner">
 			  <div class="double-bounce1"></div>
-			  <div class="double-bounce2"></div>
+			  <div class="double-bounce2"></div> 
 			</div>
 		</div><!-- End preloader  -->
 		<!-- Start header_area -->
