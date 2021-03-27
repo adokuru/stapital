@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\category;
 use App\Models\country;
+use App\Models\state;
 use Illuminate\Database\Seeder;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
@@ -48,8 +49,9 @@ class DatabaseSeeder extends Seeder
             'short_name' => 'NGN',
             'phonecode' => 234
         ]);
-        $state = country::create([
+        $state = state::create([
             'name' => 'Abuja FCT',
+            'countries_id'=> 1
         ]);
         $category = category::create([
             'name' => 'Technology',

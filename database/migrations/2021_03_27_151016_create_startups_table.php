@@ -20,14 +20,13 @@ class CreateStartupsTable extends Migration
             $table->string('phone_number');
             $table->string('email');
             $table->string('about');
-            $table->string('name');
             $table->string('facebook_link');
             $table->string('instagram_link');
             $table->string('twitter_link');
             $table->string('linkedin_link');
             $table->string('is_approved');
             $table->string('address');
-            $table->foreignId('category_id')->constrained('category');
+            $table->foreignId('category_id')->constrained('categories');
             $table->foreignId('country_id')->constrained('countries');
             $table->foreignId('state_id')->constrained('states');
             $table->tinyInteger('status')->default(1);
