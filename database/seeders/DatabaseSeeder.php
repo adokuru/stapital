@@ -2,6 +2,8 @@
 
 namespace Database\Seeders;
 
+use App\Models\category;
+use App\Models\country;
 use Illuminate\Database\Seeder;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
@@ -40,6 +42,18 @@ class DatabaseSeeder extends Seeder
             'name' => 'Investors',
             'email' => 'investor@gmail.com',
             'password' => Hash::make('password')
+        ]);
+        $country = country::create([
+            'name' => 'Nigeria',
+            'short_name' => 'NGN',
+            'phonecode' => 234
+        ]);
+        $state = country::create([
+            'name' => 'Abuja FCT',
+        ]);
+        $category = category::create([
+            'name' => 'Technology',
+            'short_name' => 'Tech',
         ]);
     }
 }
