@@ -53,7 +53,7 @@ class StartupsFactory extends Factory
             'is_approved' => 1,
             'category_id' => rand(1,2),
             'country_id' => 1,
-            'state_id' => rand(1,5),,
+            'state_id' => rand(1,5),
         ];
     }
 }

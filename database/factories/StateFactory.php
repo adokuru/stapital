@@ -23,7 +23,6 @@ class StateFactory extends Factory
     {
         return [
             //
-            \App\Models\startups::factory(10)->create();
 
         ];
     }

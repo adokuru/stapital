@@ -83,7 +83,7 @@
 						</div>
 						<div class="col-lg-2">
 							<div class="menu_button">
-								<a href="add_listing.html" class="listghor_btn"><i class="fas fa-plus"></i>Join Us</a>
+								<a href="add_listing.html" class="listghor_btn"><i class="fas fa-plus"></i>Join Us`</a>
 							</div>
 						</div>
 					</div>
