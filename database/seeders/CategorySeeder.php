@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\category;
+
 
 class CategorySeeder extends Seeder
 {
@@ -14,5 +16,13 @@ class CategorySeeder extends Seeder
     public function run()
     {
         //
+        category::create([
+            'name' => 'Technology',
+            'short_name' => 'Tech',
+        ]);
+        category::create([
+            'name' => 'Agriculture',
+            'short_name' => 'Agric',
+        ]);
     }
 }

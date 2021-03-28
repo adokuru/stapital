@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use App\Models\country;
 
 class CountrySeeder extends Seeder
 {
@@ -14,5 +15,10 @@ class CountrySeeder extends Seeder
     public function run()
     {
         //
+        country::create([
+            'name' => 'Nigeria',
+            'short_name' => 'NGN',
+            'phonecode' => 234
+        ]);
     }
 }

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	
-<!-- Mirrored from theme.codeastrology.com/listghor/404.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Mar 2021 10:00:41 GMT -->
 <head>
 		<!-- all meta -->
 		<meta charset="UTF-8">
