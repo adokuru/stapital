@@ -14,7 +14,7 @@ class StartupsSeeder extends Seeder
     public function run()
     {
         //
-        \App\Models\startups::factory(10)->create();
+        \App\Models\startups::factory(1000)->create();
 
     }
 }

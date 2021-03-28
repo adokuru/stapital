@@ -7,7 +7,7 @@
 						<div class="col-lg-3 col-md-6 col-sm-12">
 							<div class="widget_box about_widget wow fadeInUp">
 								<div class="widget_title">
-									<img src="assets/images/logo.png" class="img-fluid" alt="footer_logo">
+									<img src="{{asset('assets/images/logo.png')}}" class="img-fluid" alt="footer_logo">
 								</div>
 								<div class="widget_content">
 									<p>Lorem Ipsum is simply duammy text of the printing aadnd type an setting industry. </p>
@@ -105,34 +105,34 @@
 		<!-- scroll_top -->
 		<a id="scroll_top"><i class="fas fa-angle-up"></i></a>
 		<!-- jquery  -->
-        <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="{{asset('assets/js/vendor/jquery-1.12.4.min.js')}}"></script>
         <!--modernizr js-->
-        <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+        <script src="{{asset('assets/js/vendor/modernizr-3.7.1.min.js')}}"></script>
 	    <!-- bootstrap js -->
-	    <script src="assets/plugin/bootstrap/js/bootstrap.min.js"></script>
+	    <script src="{{asset('assets/plugin/bootstrap/js/bootstrap.min.js')}}"></script>
 	    <!-- popper js -->
-	    <script src="assets/plugin/bootstrap/js/popper.min.js"></script>
+	    <script src="{{asset('assets/plugin/bootstrap/js/popper.min.js')}}"></script>
 	    <!-- slick slider js -->
-	    <script src="assets/plugin/slick/slick.min.js"></script>
+	    <script src="{{asset('assets/plugin/slick/slick.min.js')}}"></script>
 	    <!-- magnific popup js -->
-	    <script src="assets/plugin/magnific/jquery.magnific-popup.min.js"></script>
+	    <script src="{{asset('assets/plugin/magnific/jquery.magnific-popup.min.js')}}"></script>
 	    <!-- isotope js -->
-	    <script src="assets/plugin/isotope/isotope.min.js"></script>
+	    <script src="{{asset('assets/plugin/isotope/isotope.min.js')}}"></script>
 	    <!-- imagesloaded js -->
-	    <script src="assets/plugin/imagesloaded/imagesloaded.min.js"></script>
+	    <script src="{{asset('assets/plugin/imagesloaded/imagesloaded.min.js')}}"></script>
 	    <!-- couterup js -->
-	    <script src="assets/plugin/counterup/jquery.waypoints.min.js"></script>
-	    <script src="assets/plugin/counterup/jquery.counterup.min.js"></script>
+	    <script src="{{asset('assets/plugin/counterup/jquery.waypoints.min.js')}}"></script>
+	    <script src="{{asset('assets/plugin/counterup/jquery.counterup.min.js')}}"></script>
 	    <!-- jquery_ui js -->
-	    <script src="assets/plugin/jquery_ui/jquery-ui.min.js"></script>
+	    <script src="{{asset('assets/plugin/jquery_ui/jquery-ui.min.js')}}"></script>
 	    <!-- sidebar js -->
-	    <script src="assets/plugin/sidebar/sidebar-menu.js"></script>
+	    <script src="{{asset('assets/plugin/sidebar/sidebar-menu.js')}}"></script>
 	    <!-- nice select js -->
-	    <script src="assets/plugin/niceselect/jquery.nice-select.min.js"></script>
+	    <script src="{{asset('assets/plugin/niceselect/jquery.nice-select.min.js')}}"></script>
 	    <!-- wow js -->
-	    <script src="assets/js/wow.min.js"></script>
+	    <script src="{{asset('assets/js/wow.min.js')}}"></script>
 	    <!-- main js -->
-	    <script src="assets/js/main.js"></script>
+	    <script src="{{asset('assets/js/main.js')}}"></script>
 	</body>
 
 </html>

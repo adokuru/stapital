@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ListingsController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,10 +15,22 @@ use App\Http\Controllers\DashboardController;
 |
 */
 
-Route::get('/', [DashboardController::class, 'index']);
+Route::get('/', 
+[DashboardController::class, 'index'])
+->name('home');
 
+Route::any('/startups/search', 
+[ListingsController::class, 'search_startups'])
+->name('search_startups');
+
+
+
+
+
+// admin routes
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
+
 
 require __DIR__.'/auth.php';

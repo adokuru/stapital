@@ -2,11 +2,11 @@
 <!-- Start header_bg section -->
 		<section class="hero_bg hero_v2 light_bg">
 			<svg id="head_shape" width="1013px" height="1013px"><path fill-rule="evenodd"  fill="rgb(61,184,58)" d="M1.000,-0.000 C1.000,-0.000 -18.082,170.553 187.000,205.999 C561.196,270.675 193.939,1012.999 1013.000,1012.999 C1013.000,170.999 1013.000,-0.000 1013.000,-0.000 L1.000,-0.000 Z"/></svg>
-			<img src="assets/images/shape_6.png" alt="" class="shape_1">
-			<img src="assets/images/shape_7.png" alt="" class="shape_2">
-			<img src="assets/images/shape_8.png" alt="" class="shape_3">
-			<img src="assets/images/shape_9.png" alt="" class="shape_4">
-			<img src="assets/images/shape_10.png" alt="" class="shape_5">
+			<img src="assets/images/shape_6.png" alt="shape_1" class="shape_1">
+			<img src="assets/images/shape_7.png" alt="shape_2" class="shape_2">
+			<img src="assets/images/shape_8.png" alt="shape_3" class="shape_3">
+			<img src="assets/images/shape_9.png" alt="shape_4" class="shape_4">
+			<img src="assets/images/shape_10.png" alt="shape_5" class="shape_5">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-6 col-md-8">
@@ -15,29 +15,38 @@
 									Community 
 									Today!</h2>
 								<p>Join our community and get all the  resources and guide you need for your startup or business.</p>
-								<a href="#" class="listghor_btn welcome_btn">Learn more</a>
+								<a href="/about" class="listghor_btn welcome_btn">Learn more</a>
 						</div>
 					</div>
 					<div class="col-lg-6">
 						<div class="welcome_img listghor_img wow fadeInRight" data-wow-delay=".3s">
-							<img src="assets/images/illustration_1.png"  alt="">
+							<img src="assets/images/illustration_1.png"  alt="search_illustration">
 						</div>
 					</div>
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-lg-10">
 						<div class="hero_search hero_search_v2 text-center">
-							<form>
+							<form method="POST" action="{{route('search_startups')}}">
+								@csrf
 								<div class="row">
-									<div class="col-lg-4">
+									<div class="col-lg-5">
 										<div class="form_group">
-											<input type="text" class="form_control fi_width_1" placeholder="What are you looking?" required>
-											<i class="fas fa-city"></i>
+											<select name="categories" class="search_select">
+												<option data-display="Categories">Categories</option>
+												@forelse ($categories as $category)
+												<option  value="{{$category->id}}">{{$category->name}}</option>
+												@empty
+												<option data-display="No Categories">No Categories</option>
+												@endforelse
+												
+											</select>
+											<i class="fas fa-list"></i>
 										</div>
 									</div>
-									<div class="col-lg-3">
+									<div class="col-lg-5">
 										<div class="form_group">
-											<select class="search_select">
+											<select name="location" class="search_select">
 												<option data-display="location">location</option>
 
 												@forelse ($states as $state)
@@ -48,20 +57,6 @@
 												
 											</select>
 											<i class="fas fa-location-arrow"></i>
-										</div>
-									</div>
-									<div class="col-lg-3">
-										<div class="form_group">
-											<select class="search_select">
-												<option data-display="Categories">Categories</option>
-												@forelse ($categories as $category)
-												<option  value="{{$category->id}}">{{$category->name}}</option>
-												@empty
-												<option data-display="No Categories">No Categories</option>
-												@endforelse
-												
-											</select>
-											<i class="fas fa-list"></i>
 										</div>
 									</div>
 									<div class="col-lg-2">

@@ -286,8 +286,8 @@ body{
 .header_area.sticky {
   	position: fixed;
   	width: 100%;
-	background: -o-linear-gradient(335deg, rgba(254,61,109,1) 0%, rgba(117,19,255,1) 100%);
-	background: -o-linear-gradient(25deg, rgba(254,61,109,1) 0%, rgba(117,19,255,1) 100%);
+	background: -o-linear-gradient(335deg, rgba(61,184,58,1) 0%, rgba(58,184,86,1) 100%);
+	background: -o-linear-gradient(25deg, rgba(61,184,58,1) 0%, rgba(58,184,86,1) 100%);
 	background: linear-gradient(65deg, rgba(61,184,58,1) 0%, rgba(58,184,86,1) 100%);
   	top: 0;
   	border: none;
@@ -2754,8 +2754,8 @@ ul.rateing_star li a{
 	position: relative;
 	padding: 200px 0 120px;
 	overflow: hidden;
-	background: -o-linear-gradient(45deg, rgba(254,61,109,1) 0%, rgba(117,19,255,1) 100%);
-	background: linear-gradient(45deg, rgba(254,61,109,1) 0%, rgba(117,19,255,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(61,184,58,1) 0%, rgba(61,184,58,1) 100%);
+	background: linear-gradient(45deg, rgba(61,184,58,1) 0%, rgba(61,184,58,1) 100%);
 	/*background: -moz-linear-gradient( 0deg, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
 	background: -webkit-linear-gradient( 0deg, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
 	background: -ms-linear-gradient( 0deg, rgb(254,61,108) 0%, rgb(119,19,255) 100%);*/

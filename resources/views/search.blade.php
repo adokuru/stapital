@@ -145,7 +145,7 @@
                             @forelse ($startups as $startup)
                             <div class="listing_item_box">
 								<div class="listghor_img">
-									<img src="https://via.placeholder.com/270x270/s3db83a/FFFFFF.webp?text=StartUp+Image" alt="">
+									<img src="https://via.placeholder.com/270x270/3db83a/FFFFFF.webp?text=StartUp+Image" alt="">
 									<a href="/startup/{{$startup->id}}" class="overlay_img"></a>
 									
 								</div>

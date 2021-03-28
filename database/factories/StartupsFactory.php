@@ -40,7 +40,7 @@ class StartupsFactory extends Factory
        */ 
         return [
             //
-            'name' => $this->faker->name,
+            'name' => $this->faker->company,
             'email' => $this->faker->unique()->safeEmail,
             'website' => 'www.'.$this->faker->company.'.com',
             'phone_number' => $this->faker->phoneNumber,
