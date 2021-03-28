@@ -19,7 +19,7 @@ class CreateStartupsTable extends Migration
             $table->string('website');
             $table->string('phone_number');
             $table->string('email');
-            $table->string('about');
+            $table->longText('about');
             $table->string('facebook_link');
             $table->string('instagram_link');
             $table->string('twitter_link');
