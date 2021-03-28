@@ -42,7 +42,7 @@ class StartupsFactory extends Factory
             //
             'name' => $this->faker->name,
             'email' => $this->faker->unique()->safeEmail,
-            'website' => 'www'.$this->faker->company.'.com',
+            'website' => 'www.'.$this->faker->company.'.com',
             'phone_number' => $this->faker->phoneNumber,
             'about' => $this->faker->paragraph,
             'address' => $this->faker->address,
