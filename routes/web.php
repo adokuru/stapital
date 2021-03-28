@@ -25,6 +25,12 @@ Route::any('/startups/search',
 
 
 
+Route::get('/search/startups', 
+[ListingsController::class, 'startups'])
+->name('startups');
+
+
+
 
 
 // admin routes

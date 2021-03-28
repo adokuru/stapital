@@ -19,4 +19,11 @@ class ListingsController extends Controller
         return view('search', compact('startups','category'));
 
     }
+    public function startups()
+    {
+        $startups = startups::paginate(6);
+        //dd($search);
+        return view('search', compact('startups'));
+
+    }
 }

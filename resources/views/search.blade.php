@@ -12,7 +12,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="breadcrumb_content text-center">
-							<h2>{{$category->name}} Startups</h2>
+							<h2>{{ $category->name ?? "" }} Startups</h2>
 							<ul class="breadcrumb_link">
 								<li><a href="/">Home</a></li>
 								<li><a href="/search/startups">Startups</a></li>
