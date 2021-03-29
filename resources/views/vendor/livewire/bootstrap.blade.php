@@ -1,8 +1,7 @@
-
 <div>
     @if ($paginator->hasPages())
-        <nav class="listghor_pagination text-center">
-            <ul>
+        <nav>
+            <ul class="pagination">
                 {{-- Previous Page Link --}}
                 @if ($paginator->onFirstPage())
                     <li class="page-item disabled" aria-disabled="true" aria-label="@lang('pagination.previous')">
@@ -10,7 +9,7 @@
                     </li>
                 @else
                     <li class="page-item">
-                        <button type="button" dusk="previousPage" class="page-link"  id="page-link-scroll-to-top" wire:click="previousPage" wire:loading.attr="disabled" rel="prev" aria-label="@lang('pagination.previous')">&lsaquo;</button>
+                        <button type="button" dusk="previousPage" class="page-link" wire:click="previousPage" wire:loading.attr="disabled" rel="prev" aria-label="@lang('pagination.previous')">&lsaquo;</button>
                     </li>
                 @endif
 
@@ -27,7 +26,7 @@
                             @if ($page == $paginator->currentPage())
                                 <li class="page-item active" wire:key="paginator-page-{{ $page }}" aria-current="page"><span class="page-link">{{ $page }}</span></li>
                             @else
-                                <li class="page-item"  id="page-link-scroll-to-top" wire:key="paginator-page-{{ $page }}"><button type="button" class="page-link" wire:click="gotoPage({{ $page }})">{{ $page }}</button></li>
+                                <li class="page-item" wire:key="paginator-page-{{ $page }}"><button type="button" class="page-link" wire:click="gotoPage({{ $page }})">{{ $page }}</button></li>
                             @endif
                         @endforeach
                     @endif
@@ -36,7 +35,7 @@
                 {{-- Next Page Link --}}
                 @if ($paginator->hasMorePages())
                     <li class="page-item">
-                        <button type="button" dusk="nextPage" id="page-link-scroll-to-top" class="page-link" wire:click="nextPage" wire:loading.attr="disabled" rel="next" aria-label="@lang('pagination.next')">&rsaquo;</button>
+                        <button type="button" dusk="nextPage" class="page-link" wire:click="nextPage" wire:loading.attr="disabled" rel="next" aria-label="@lang('pagination.next')">&rsaquo;</button>
                     </li>
                 @else
                     <li class="page-item disabled" aria-disabled="true" aria-label="@lang('pagination.next')">

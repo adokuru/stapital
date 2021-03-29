@@ -47,3 +47,13 @@
         {{ $startups->onEachSide(1)->links('components.startup_pagination') }} 
     </div>
 
+    <script>
+        Livewire.on('gotoTop', () => {
+            window.scrollTo({
+                top: 15,
+                left: 15,
+                behaviour: 'smooth'
+            })
+        })
+</script>
+
