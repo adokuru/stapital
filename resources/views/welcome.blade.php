@@ -186,6 +186,7 @@
 			</div>
 		</section><!-- End listghor_top_category section -->
 		<!-- Start popular_catagory section -->
+		<!-- 
 		<section class="popular_catagory_v1 section_padding" id="popular_catagory">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -282,7 +283,9 @@
 				</div>
 			</div>
 		</section>
+		-->
 		<!-- End popular_catagory section -->
+	
 		<!-- Start how_it_work section -->
 		<section class="working_process_v2 light_bg section_padding">
 			<div class="container">
@@ -507,7 +510,7 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8 col-sm-12">
 						<div class="listghor_title text-center">
-							<h2>our creative team</h2>
+							<h2>our stakeholders</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</p>
 						</div>
 					</div>
