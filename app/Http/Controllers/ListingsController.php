@@ -16,14 +16,14 @@ class ListingsController extends Controller
         $category= category::findorfail($category_id);
         $startups = startups::query()->where('category_id', $category_id)->Where('state_id', $location_id)->paginate(6);
         //dd($search);
+        $startups->appends(['categories' => $category_id, 'location' => $location_id]);
         return view('search', compact('startups','category'));
 
     }
     public function startups()
     {
-        $startups = startups::paginate(6);
         //dd($search);
-        return view('search', compact('startups'));
+        return view('search');
 
     }
 }

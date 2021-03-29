@@ -6,7 +6,7 @@
             <li class="prev disabled"><a><i class="fas fa-arrow-left"></i></a></li>
 
         @else
-            <li class="prev"><a href="{{ $paginator->previousPageUrl() }}"><i class="fas fa-arrow-left"></i></a></li>
+            <li class="prev"><a wire:click="setPage('{{ $paginator->previousPageUrl() }}')" href="#"><i class="fas fa-arrow-left"></i></a></li>
 
         @endif
 
@@ -25,7 +25,7 @@
                     @if ($page == $paginator->currentPage())
                         <li><a>{{ $page }}</a></li>
                     @else
-                        <li><a href="{{ $url }}">{{ $page }}</a></li>
+                        <li><a wire:click="setPage('{{ $url }}')" href="#">{{ $page }}</a></li>
                     @endif
                 @endforeach
             @endif
@@ -34,7 +34,7 @@
 
         
         @if ($paginator->hasMorePages())
-            <li class="next"><a href="{{ $paginator->nextPageUrl() }}"><i class="fas fa-arrow-right"></i></a></li>
+            <li class="next"><a wire:click="setPage('{{ $paginator->nextPageUrl() }}')"  href="#"><i class="fas fa-arrow-right"></i></a></li>
         @else
             <li class="next"><a"><i class="fas fa-arrow-right"></i></a></li>
         @endif

@@ -2754,11 +2754,11 @@ ul.rateing_star li a{
 	position: relative;
 	padding: 200px 0 120px;
 	overflow: hidden;
-	background: -o-linear-gradient(45deg, rgba(61,184,58,1) 0%, rgba(61,184,58,1) 100%);
-	background: linear-gradient(45deg, rgba(61,184,58,1) 0%, rgba(61,184,58,1) 100%);
-	/*background: -moz-linear-gradient( 0deg, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
-	background: -webkit-linear-gradient( 0deg, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
-	background: -ms-linear-gradient( 0deg, rgb(254,61,108) 0%, rgb(119,19,255) 100%);*/
+	background: -o-linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
+	background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
+	/*background: -moz-linear-gradient( 0deg, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
+	background: -webkit-linear-gradient( 0deg, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
+	background: -ms-linear-gradient( 0deg, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);*/
 }
 .listghor_breadcrumb svg#shape_1{
 	position: absolute;
@@ -2870,9 +2870,9 @@ ul.rateing_star li a{
 /*team experience*/
 .lisology_project_v1{
 	position: relative;
-	background: -moz-linear-gradient( 0deg, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
-	background: -webkit-linear-gradient( 0deg, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
-	background: -ms-linear-gradient( 0deg, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
+	background: -moz-linear-gradient( 0deg, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
+	background: -webkit-linear-gradient( 0deg, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
+	background: -ms-linear-gradient( 0deg, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
 }
 .listghor_title{
 	position: relative;
@@ -4317,9 +4317,9 @@ textarea.form_control{
 	font-size: 24px;
 }
 .contact_info_v1{
-	background: -webkit-linear-gradient(bottom, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
-	background: -o-linear-gradient(bottom, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
-	background: linear-gradient(to top, rgb(254,61,108) 0%, rgb(119,19,255) 100%);
+	background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
+	background: -o-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
+	background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(61,184,58,1) 100%);
 }
 .contact_info_v1 .listghor_box{
 	background: #fff;

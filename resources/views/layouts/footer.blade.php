@@ -133,6 +133,8 @@
 	    <script src="{{asset('assets/js/wow.min.js')}}"></script>
 	    <!-- main js -->
 	    <script src="{{asset('assets/js/main.js')}}"></script>
+
+		@livewireScripts
 	</body>
 
 </html>

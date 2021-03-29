@@ -23,6 +23,7 @@
         <link rel="icon" type="image/png" sizes="96x96" href="{{asset('assets/images/favicon/favicon_32.png')}}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/images/favicon/favicon_96.png')}}">
 	  	<!-- All css here -->
+		  @livewireStyles
 	  	<!-- Bootstrap css -->
 	  	<link rel="stylesheet" href="{{asset('assets/plugin/bootstrap/css/bootstrap.min.css')}}">
 	  	<!-- fontaweosme css -->
