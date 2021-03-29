@@ -184,108 +184,155 @@
 					</div>
 				</div>
 			</div>
-		</section><!-- End listghor_top_category section -->
-		<!-- Start popular_catagory section -->
-		<!-- 
-		<section class="popular_catagory_v1 section_padding" id="popular_catagory">
+		</section>
+	
+
+		<!-- Start explore_city section -->
+		<section class="explore_place listing_style_v2 section_padding">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8 col-sm-12">
 						<div class="listghor_title text-center">
-							<h2>Explore Dream Places</h2>
+							<h2>FEATURED STARTUPS</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="listghor_filter text-center">
-							<button class="filter_btn btn_active" data-filter="*">All</button>
-							<button class="filter_btn" data-filter=".cat_1">Trending</button>
-							<button class="filter_btn" data-filter=".cat_2">Popular</button>
-							<button class="filter_btn" data-filter=".cat_3">Most Visited</button>
+				<div class="place_slider">
+					<div class="listing_item_box">
+						<div class="listghor_img">
+							<img src="assets/images/place_13.jpg" alt="">
+							<a href="listing_details.html" class="overlay_img"></a>
+							<div class="overlay_content">
+								<ul>
+									<li class="icon"><a href="#"><i class="far fa-building"></i></a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="listing_info">
+							<div class="post_info">
+								<h3><a href="listing_details.html">Caravela Beach Resort</a></h3>
+								<h4 class="price">10.00</h4>
+								<p class="location">Al Mankhool Road, Dubai</p>
+								<p class="phone"><a href="tel:+123456789">+123 456 789</a>0</p>
+							</div>
+							<div class="post_meta">
+								<ul>
+									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
+									<li><a href="#" class="open_btn">open now</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="category_grid row">
-					<div class="col-lg-4 col-md-6 col-sm-12 grid_item cat_1">
-						<div class="popular_category_box wow fadeInUp">
-							<a href="#" class="listghor_img">
-								<img src="assets/images/place_1.jpg" alt="">
-								<div class="overlay_img"></div>
-								<div class="overlay_content">
-									<h4>FOOD & DRINKS</h4>
-									<p>128 Listing</p>
-								</div>
-							</a>
+					<div class="listing_item_box">
+						<div class="listghor_img">
+							<img src="assets/images/place_14.jpg" alt="">
+							<a href="listing_details.html" class="overlay_img"></a>
+							<div class="overlay_content">
+								<ul>
+									<li class="icon"><a href="#"><i class="fas fa-luggage-cart"></i></a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="listing_info">
+							<div class="post_info">
+								<h3><a href="listing_details.html">Quality Inn Ocean Palms</a></h3>
+								<h4 class="price">20.00</h4>
+								<p class="location">Al Mankhool Road, Dubai</p>
+								<p class="phone"><a href="tel:+123456789">+123 456 789</a></p>
+							</div>
+							<div class="post_meta">
+								<ul>
+									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
+									<li><a href="#" class="close_btn">Close now</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 grid_item cat_2">
-						<div class="popular_category_box wow fadeInUp">
-							<a href="#" class="listghor_img">
-								<img src="assets/images/place_2.jpg" alt="">
-								<div class="overlay_img"></div>
-								<div class="overlay_content">
-									<h4>FOOD & DRINKS</h4>
-									<p>128 Listing</p>
-								</div>
-							</a>
+					<div class="listing_item_box">
+						<div class="listghor_img">
+							<img src="assets/images/place_15.jpg" alt="">
+							<a href="listing_details.html" class="overlay_img"></a>
+							<div class="overlay_content">
+								<ul>
+									<li class="icon"><a href="#"><i class="fas fa-spa"></i></a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="listing_info">
+							<div class="post_info">
+								<h3><a href="listing_details.html">Royal Orchid Beach Resort</a></h3>
+								<h4 class="price">30.00</h4>
+								<p class="location">Al Mankhool Road, Dubai</p>
+								<p class="phone"><a href="tel:+123456789">+123 456 789</a></p>
+							</div>
+							<div class="post_meta">
+								<ul>
+									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
+									<li><a href="#" class="open_btn">open now</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 grid_item cat_3">
-						<div class="popular_category_box wow fadeInUp">
-							<a href="#" class="listghor_img">
-								<img src="assets/images/place_3.jpg" alt="">
-								<div class="overlay_img"></div>
-								<div class="overlay_content">
-									<h4>FOOD & DRINKS</h4>
-									<p>128 Listing</p>
-								</div>
-							</a>
+					<div class="listing_item_box">
+						<div class="listghor_img">
+							<img src="assets/images/place_14.jpg" alt="">
+							<a href="listing_details.html" class="overlay_img"></a>
+							<div class="overlay_content">
+								<ul>
+									<li class="icon"><a href="#"><i class="fas fa-glass-cheers"></i></a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<div class="listing_info">
+							<div class="post_info">
+								<h3><a href="listing_details.html">WelcomHeritage Panjim Pousada</a></h3>
+								<h4 class="price">40.00</h4>
+								<p class="location">Al Mankhool Road, Dubai</p>
+								<p class="phone"><a href="tel:+123456789">+123 456 789</a></p>
+							</div>
+							<div class="post_meta">
+								<ul>
+									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
+									<li><a href="#" class="open_btn">open now</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 grid_item cat_2">
-						<div class="popular_category_box wow fadeInUp">
-							<a href="#" class="listghor_img">
-								<img src="assets/images/place_4.jpg" alt="">
-								<div class="overlay_img"></div>
-								<div class="overlay_content">
-									<h4>FOOD & DRINKS</h4>
-									<p>128 Listing</p>
-								</div>
-							</a>
+					<div class="listing_item_box">
+						<div class="listghor_img">
+							<img src="assets/images/place_13.jpg" alt="">
+							<a href="listing_details.html" class="overlay_img"></a>
+							<div class="overlay_content">
+								<ul>
+									<li class="icon"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
+									
+								</ul>
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 grid_item cat_1">
-						<div class="popular_category_box wow fadeInUp">
-							<a href="#" class="listghor_img">
-								<img src="assets/images/place_5.jpg" alt="">
-								<div class="overlay_img"></div>
-								<div class="overlay_content">
-									<h4>FOOD & DRINKS</h4>
-									<p>128 Listing</p>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 col-sm-12 grid_item cat_3">
-						<div class="popular_category_box wow fadeInUp">
-							<a href="#" class="listghor_img">
-								<img src="assets/images/place_6.jpg" alt="">
-								<div class="overlay_img"></div>
-								<div class="overlay_content">
-									<h4>FOOD & DRINKS</h4>
-									<p>128 Listing</p>
-								</div>
-							</a>
+						<div class="listing_info">
+							<div class="post_info">
+								<h3><a href="listing_details.html">Bogmallo Beach Resor</a></h3>
+								<h4 class="price">50.00</h4>
+								<p class="location">Al Mankhool Road, Dubai</p>
+								<p class="phone"><a href="tel:+123456789">+123 456 789</a></p>
+							</div>
+							<div class="post_meta">
+								<ul>
+									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
+									<li><a href="#" class="open_btn">open now</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		-->
-		<!-- End popular_catagory section -->
-	
+		<!-- End explore_city section -->
 		<!-- Start how_it_work section -->
 		<section class="working_process_v2 light_bg section_padding">
 			<div class="container">
@@ -341,169 +388,6 @@
 			</div>
 		</section>
 		<!-- End how_it_work section -->
-		<!-- Start explore_city section -->
-		<section class="explore_place listing_style_v2 section_padding">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-6 col-md-8 col-sm-12">
-						<div class="listghor_title text-center">
-							<h2>EXPLORE YOUR CITY</h2>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-						</div>
-					</div>
-				</div>
-				<div class="place_slider">
-					<div class="listing_item_box">
-						<div class="listghor_img">
-							<img src="assets/images/place_13.jpg" alt="">
-							<a href="listing_details.html" class="overlay_img"></a>
-							<div class="overlay_content">
-								<ul>
-									<li class="icon"><a href="#"><i class="far fa-building"></i></a></li>
-									<li><a href="#" class="overlay_btn">173 Listing</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="listing_info">
-							<div class="post_info">
-								<h3><a href="listing_details.html">Caravela Beach Resort</a></h3>
-								<h4 class="price">10.00</h4>
-								<p class="location">Al Mankhool Road, Dubai</p>
-								<p class="phone"><a href="tel:+123456789">+123 456 789</a>0</p>
-							</div>
-							<div class="post_meta">
-								<ul>
-									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
-									<li><a href="#" class="open_btn">open now</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="listing_item_box">
-						<div class="listghor_img">
-							<img src="assets/images/place_14.jpg" alt="">
-							<a href="listing_details.html" class="overlay_img"></a>
-							<div class="overlay_content">
-								<ul>
-									<li class="icon"><a href="#"><i class="fas fa-luggage-cart"></i></a></li>
-									<li><a href="#" class="overlay_btn">173 Listing</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="listing_info">
-							<div class="post_info">
-								<h3><a href="listing_details.html">Quality Inn Ocean Palms</a></h3>
-								<h4 class="price">20.00</h4>
-								<p class="location">Al Mankhool Road, Dubai</p>
-								<p class="phone"><a href="tel:+123456789">+123 456 789</a></p>
-							</div>
-							<div class="post_meta">
-								<ul>
-									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
-									<li><a href="#" class="close_btn">Close now</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="listing_item_box">
-						<div class="listghor_img">
-							<img src="assets/images/place_15.jpg" alt="">
-							<a href="listing_details.html" class="overlay_img"></a>
-							<div class="overlay_content">
-								<ul>
-									<li class="icon"><a href="#"><i class="fas fa-spa"></i></a></li>
-									<li><a href="#" class="overlay_btn">173 Listing</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="listing_info">
-							<div class="post_info">
-								<h3><a href="listing_details.html">Royal Orchid Beach Resort</a></h3>
-								<h4 class="price">30.00</h4>
-								<p class="location">Al Mankhool Road, Dubai</p>
-								<p class="phone"><a href="tel:+123456789">+123 456 789</a></p>
-							</div>
-							<div class="post_meta">
-								<ul>
-									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
-									<li><a href="#" class="open_btn">open now</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="listing_item_box">
-						<div class="listghor_img">
-							<img src="assets/images/place_14.jpg" alt="">
-							<a href="listing_details.html" class="overlay_img"></a>
-							<div class="overlay_content">
-								<ul>
-									<li class="icon"><a href="#"><i class="fas fa-glass-cheers"></i></a></li>
-									<li><a href="#" class="overlay_btn">173 Listing</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="listing_info">
-							<div class="post_info">
-								<h3><a href="listing_details.html">WelcomHeritage Panjim Pousada</a></h3>
-								<h4 class="price">40.00</h4>
-								<p class="location">Al Mankhool Road, Dubai</p>
-								<p class="phone"><a href="tel:+123456789">+123 456 789</a></p>
-							</div>
-							<div class="post_meta">
-								<ul>
-									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
-									<li><a href="#" class="open_btn">open now</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="listing_item_box">
-						<div class="listghor_img">
-							<img src="assets/images/place_13.jpg" alt="">
-							<a href="listing_details.html" class="overlay_img"></a>
-							<div class="overlay_content">
-								<ul>
-									<li class="icon"><a href="#"><i class="fas fa-shopping-bag"></i></a></li>
-									<li><a href="#" class="overlay_btn">173 Listing</a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="listing_info">
-							<div class="post_info">
-								<h3><a href="listing_details.html">Bogmallo Beach Resor</a></h3>
-								<h4 class="price">50.00</h4>
-								<p class="location">Al Mankhool Road, Dubai</p>
-								<p class="phone"><a href="tel:+123456789">+123 456 789</a></p>
-							</div>
-							<div class="post_meta">
-								<ul>
-									<li><a href="#"><i class="fas fa-home"></i>Real Estate</a></li>
-									<li><a href="#" class="open_btn">open now</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End explore_city section -->
-		<!-- Start Community section -->
-		<section class="listghor_community section_padding">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-6">
-						<div class="listghor_content_box text-center">
-							<div class="community_text">
-								<h2>Join Our Community</h2>
-								<p>It is a long established fact that a reader will be distracted by the read able content of a page when looking at its layout. </p>
-								<a href="/register" class="listghor_btn">Join With Us</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Community section -->
 		<!-- Srart listghor_team section -->
 		<section class="listghor_team_v2 section_padding light_bg">
 			<div class="container">
@@ -610,7 +494,7 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8 col-sm-12">
 						<div class="listghor_title text-center">
-							<h2>PEOPLE BLOG POST</h2>
+							<h2>OUR WEEKLY INSIGHTS</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
 						</div>
 					</div>
@@ -676,13 +560,30 @@
 			</div>
 		</section>
 		<!-- End listghor-blog section -->
+				<!-- Start Community section -->
+				<section class="listghor_community section_padding">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-lg-6">
+								<div class="listghor_content_box text-center">
+									<div class="community_text">
+										<h2>Join Our Community</h2>
+										<p>It is a long established fact that a reader will be distracted by the read able content of a page when looking at its layout. </p>
+										<a href="/register" class="listghor_btn">Join With Us</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End Community section -->
 		<!-- Start listghor_client section -->
 		<section class="listghor_testimonial_v2 section_padding light_bg">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8 col-sm-12">
 						<div class="listghor_title text-center">
-							<h2>WHAT OUR CLIENT SAY</h2>
+							<h2>WHAT OUR INVESTORS SAY</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
 						</div>
 					</div>
