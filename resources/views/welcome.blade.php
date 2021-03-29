@@ -484,6 +484,23 @@
 			</div>
 		</section>
 		<!-- End explore_city section -->
+		<!-- Start Community section -->
+		<section class="listghor_community section_padding">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-6">
+						<div class="listghor_content_box text-center">
+							<div class="community_text">
+								<h2>Join Our Community</h2>
+								<p>It is a long established fact that a reader will be distracted by the read able content of a page when looking at its layout. </p>
+								<a href="/register" class="listghor_btn">Join With Us</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Community section -->
 		<!-- Srart listghor_team section -->
 		<section class="listghor_team_v2 section_padding light_bg">
 			<div class="container">
@@ -585,85 +602,69 @@
 		</section>
 		<!-- End listghor_team section -->
 		<!-- Start listghor_blog section -->
-		<section class="listghor_blog_v2 section_padding">
+		<section class="listghor_blog_v1 section_padding">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-8 col-sm-12">
 						<div class="listghor_title text-center">
-							<h2>latest News</h2>
+							<h2>PEOPLE BLOG POST</h2>
 							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="blog_box wow fadeInUp">
+					<div class="col-lg-5">
+						<div class="blog_box wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
 							<div class="listghor_img">
-								<a href="blog_details.html"><img src="assets/images/blog_19.jpg" class="img-fluid" alt=""></a>
-							</div>
-							<div class="blog_info">
-								<div class="post_text">
-									<h2><a href="blog_details.html">Jirono Expands the Leadership Team David Lin, Controller in cheap gesut the way.</a></h2>
-									<p>Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. Sed eget sem vitae purus tempus dignissim.Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. </p>
-									<a href="blog_details.html" class="listghor_link">Read more</a>
-								</div>
-								<div class="post_meta">
-									<a href="#" class="date"><i class="far fa-calendar-alt"></i>18 Apr,2019</a>
-									<a href="#" class="comment"><i class="far fa-comments"></i>22 Comments</a>
+								<img src="assets/images/blog_1.jpg" class="img-fluid" alt="">
+								<a href="blog_details.html"><div class="overlay_img"></div></a>
+								<div class="overlay_content">
+									<h2><a href="blog_details.html">New York in City</a></h2>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text</p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="blog_box wow fadeInUp">
-							<div class="listghor_img">
-								<a href="blog_details.html"><img src="assets/images/blog_20.jpg" class="img-fluid" alt=""></a>
-							</div>
-							<div class="blog_info">
-								<div class="post_text">
-									<h2><a href="blog_details.html">Jirono Expands the Leadership Team David Lin, Controller in cheap gesut the way.</a></h2>
-									<p>Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. Sed eget sem vitae purus tempus dignissim.Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. </p>
-									<a href="blog_details.html" class="listghor_link">Read more</a>
+					<div class="col-lg-7">
+						<div class="blog_list_wrapper">
+							<div class="blog_box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+								<div class="listghor_img">
+									<a href="blog_details.html"><img src="assets/images/blog_2.jpg" alt=""></a>
 								</div>
-								<div class="post_meta">
-									<a href="#" class="date"><i class="far fa-calendar-alt"></i>18 Apr,2019</a>
-									<a href="#" class="comment"><i class="far fa-comments"></i>22 Comments</a>
+								<div class="blog_info">
+									<h2><a href="blog_details.html">Best Resturant In Bangladesh</a></h2>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text.</p>
+									<h6><i class="fas fa-calendar-alt"></i>Aug 20,2019</h6>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="blog_box wow fadeInUp">
-							<div class="listghor_img">
-								<a href="blog_details.html"><img src="assets/images/blog_21.jpg" class="img-fluid" alt=""></a>
-							</div>
-							<div class="blog_info">
-								<div class="post_text">
-									<h2><a href="blog_details.html">Jirono Expands the Leadership Team David Lin, Controller in cheap gesut the way.</a></h2>
-									<p>Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. Sed eget sem vitae purus tempus dignissim.Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. </p>
-									<a href="blog_details.html" class="listghor_link">Read more</a>
+							<div class="blog_box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+								<div class="listghor_img">
+									<a href="blog_details.html"><img src="assets/images/blog_3.jpg" alt=""></a>
 								</div>
-								<div class="post_meta">
-									<a href="#" class="date"><i class="far fa-calendar-alt"></i>18 Apr,2019</a>
-									<a href="#" class="comment"><i class="far fa-comments"></i>22 Comments</a>
+								<div class="blog_info">
+									<h2><a href="blog_details.html">Spent your holiday with best places</a></h2>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text.</p>
+									<h6><i class="fas fa-calendar-alt"></i>Aug 20,2019</h6>
 								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="blog_box blog_box_5 wow fadeInUp">
-							<div class="listghor_img">
-								<a href="blog_details.html"><img src="assets/images/blog_22.jpg" class="img-fluid" alt=""></a>
-							</div>
-							<div class="blog_info">
-								<div class="post_text">
-									<h2><a href="blog_details.html">Jirono Expands the Leadership Team David Lin, Controller in cheap gesut the way.</a></h2>
-									<p>Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. Sed eget sem vitae purus tempus dignissim.Mauris tellus sem, ultrices varius nisl at, convallis iaculis mauris. </p>
-									<a href="blog_details.html" class="listghor_link">Read more</a>
+							<div class="blog_box wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+								<div class="listghor_img">
+									<a href="blog_details-2.html"><img src="assets/images/blog_4.jpg" alt=""></a>
 								</div>
-								<div class="post_meta">
-									<a href="#" class="date"><i class="far fa-calendar-alt"></i>18 Apr,2019</a>
-									<a href="#" class="comment"><i class="far fa-comments"></i>22 Comments</a>
+								<div class="blog_info">
+									<h2><a href="blog_details.html">Best Resturant In Bangladesh</a></h2>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text.</p>
+									<h6><i class="fas fa-calendar-alt"></i>Aug 20,2019</h6>
+								</div>
+							</div>
+							<div class="blog_box wow fadeInUp" style="visibility: hidden; animation-name: none;">
+								<div class="listghor_img">
+									<a href="blog_details.html"><img src="assets/images/blog_5.jpg" alt=""></a>
+								</div>
+								<div class="blog_info">
+									<h2><a href="blog_details.html">Spent your holiday with best places</a></h2>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text.</p>
+									<h6><i class="fas fa-calendar-alt"></i>Aug 20,2019</h6>
 								</div>
 							</div>
 						</div>

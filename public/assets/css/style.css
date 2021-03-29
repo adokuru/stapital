@@ -2620,7 +2620,7 @@ ul.rateing_star li a{
 */
 .listghor_community{
 	position: relative;
-	background: #f67849;
+	background: #3db83a;
 	z-index: 1;
 }
 .listghor_community:after{
