@@ -23,7 +23,7 @@
         <link rel="icon" type="image/png" sizes="96x96" href="{{asset('assets/images/favicon/favicon_32.png')}}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/images/favicon/favicon_96.png')}}">
 	  	<!-- All css here -->
-		  @livewireStyles
+		  <livewire:styles/>
 	  	<!-- Bootstrap css -->
 	  	<link rel="stylesheet" href="{{asset('assets/plugin/bootstrap/css/bootstrap.min.css')}}">
 	  	<!-- fontaweosme css -->
@@ -82,6 +82,7 @@
 										<li class="menu-item"><a href="/resources">Resources</a></li>
 										<li class="menu-item"><a href="/blog">Blog</a></li>
 										<li class="menu-item"><a href="/contact">Contact</a></li>
+										<li class="menu-item"><a href="/login">Login</a></li>
 									</ul>
 								</nav>
 							</div>

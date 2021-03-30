@@ -134,7 +134,7 @@
 	    <!-- main js -->
 	    <script src="{{asset('assets/js/main.js')}}"></script>
 
-		@livewireScripts
+		<livewire:scripts/>
 		<script>
 			$(document).on('click', '#page-link-scroll-to-top', function (e) {
 			$("html, body").animate({ scrollTop: 0 }, "slow");

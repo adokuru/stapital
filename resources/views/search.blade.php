@@ -140,7 +140,7 @@
 							</div>
 						</div>
 					</div>
-					@livewire('startups-pagination')
+					<livewire:startups-pagination />
 				</div>
 			</div>
 		</section>
