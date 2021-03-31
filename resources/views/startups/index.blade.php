@@ -102,7 +102,7 @@
                                     10
                                 </div>
                                 <div class="text-base text-gray-600 mt-1">
-                                    Pastors
+                                    Investors Requests
                                 </div>
                             </div>
                         </div>
@@ -119,11 +119,11 @@
                                     ></i>
                                     <div class="ml-auto"></div>
                                 </div>
-                                <div class="text-3xl font-bold leading-8 mt-6">
-                                    Ketu 
+                                <div class="text-xl font-bold leading-8 mt-6">
+                                    Company Name 
                                 </div>
                                 <div class="text-base text-gray-600 mt-1">
-                                        Area
+                                    Start Up
                                 </div>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                                    10
                                 </div>
                                 <div class="text-base text-gray-600 mt-1">
-                                   No of Districts
+                                   No of Views
                                 </div>
                             </div>
                         </div>
@@ -162,10 +162,10 @@
                                     <div class="ml-auto"></div>
                                 </div>
                                 <div class="text-3xl font-bold leading-8 mt-6">
-                                    20
+                                    4
                                 </div>
                                 <div class="text-base text-gray-600 mt-1">
-                                    No of Assemblies
+                                    Rating
                                 </div>
                             </div>
                         </div>
