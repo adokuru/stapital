@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Page Title -->
 		<title>Stapital - Startup & Invesor Portal </title>
+		<meta name="author" content="DanoiTech" />
 		<!-- Favicon -->
         <!-- apple icon -->
         <link rel="apple-touch-icon" sizes="57x57" href="{{asset('assets/images/favicon/apple_57.png')}}">

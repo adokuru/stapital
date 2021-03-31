@@ -23,7 +23,13 @@ class RedirectIfAuthenticated
 
         foreach ($guards as $guard) {
             if (Auth::guard($guard)->check()) {
-                return redirect(RouteServiceProvider::HOME);
+                if(auth()->check() && auth()->user()->hasRole('admin')) {
+                    return redirect(RouteServiceProvider::HOME);
+                } else if(auth()->check() && auth()->user()->hasRole('startups')) {
+                    return redirect()->intended('/startups/dashboard');
+                } else {
+                    return redirect()->back();
+                }
             }
         }
 

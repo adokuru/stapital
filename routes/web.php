@@ -31,12 +31,27 @@ Route::get('/search/startups',
 
 
 
+Route::group(['middleware' => ['role:admin']], function () {
+    Route::get('/dashboard', function () {
+    return view('admin/dashboard');
+})->middleware(['auth'])->name('Admindashboard');
+});
 
+Route::group(['middleware' => ['role:startups']], function () {
+    //
+    Route::get('/startups/dashboard', function () {
+        return view('startups/index');
+    })->middleware(['auth'])->name('Starupsdashboard');
+});
 
-// admin routes
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+Route::group(['middleware' => ['role:admin|stake-holders']], function () {
+    //
+});
+
+Route::group(['middleware' => ['role:admin|investors']], function () {
+    //
+});
+
 
 
 require __DIR__.'/auth.php';
