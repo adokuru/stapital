@@ -81,7 +81,7 @@
 										</div>
 										<div class="news_info">
 											<h2><a href="/startup/{{$startup->id}}">{{$startup->name}}</a></h2>
-											<p>{{$startup->created_at}}</p>
+											<p>{{$startup->created_at->diffForHumans()}}</p>
 										</div>
 									</div>
                                 @endforeach
